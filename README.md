@@ -80,17 +80,6 @@ roslaunch turtlebot3_nav potential_fields.launch
 
 ---
 
-## 📸 Screenshots
-
-Visuals captured from Gazebo and RViz for both scenarios.
-
-![Gazebo With Obstacles](docs/gazebo_with_obstacles.png)
-![Gazebo Without Obstacles](docs/gazebo_without_obstacles.png)
-![RViz With Obstacles](docs/rviz_with_obstacles.png)
-![RViz Without Obstacles](docs/rviz_without_obstacles.png)
-
----
-
 ## 🧠 Features
 
 - A* Path Planning
