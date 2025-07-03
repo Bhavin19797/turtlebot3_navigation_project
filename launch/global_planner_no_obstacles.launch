@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="turtlebot3_nav" type="global_planner_no_obstacles.py" name="global_planner" output="screen"/>
+
+  <!-- Static transform: map -> odom -->
+  <node pkg="tf" type="static_transform_publisher" name="map_to_odom" 
+        args="0 0 0 0 0 0 map odom 100"/>
+</launch>
+

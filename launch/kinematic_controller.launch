@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlebot3_nav" type="kinematic_controller.py" name="kinematic_controller" output="screen"/>
+</launch>
+

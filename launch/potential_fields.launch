@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlebot3_nav" type="potential_fields.py" name="potential_field_node" output="screen"/>
+</launch>
+
